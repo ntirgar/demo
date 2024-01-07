@@ -1,0 +1,163 @@
+html, body, p, h1, h3, h4{
+  padding: 0;
+  margin: 0;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+   font-family: 'Open Sans', sans-serif;
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+}
+
+ .button-large {
+   width: 295px;
+   height: 80px;
+   color: white;
+   background: #2A5E31 0% 0% no-repeat padding-box;
+   box-shadow: 15px 15px 50px #7042DC1F;
+   border-radius: 46px;
+   font: normal normal normal 23px/32px Open Sans;
+ }
+ 
+ main {
+   padding: 32px 98px;
+   flex: 1 1 auto;
+   background:
+     url(assets/images/OBJECTS.png)    /* image */
+     no-repeat;
+     background-position: right 0px bottom  32px; 
+     background-origin: content-box;
+     background-size: 40% 90%;
+  }
+
+ details {
+   display: inline-block;
+   padding: 12px 0;
+ }
+ .artical-image{
+   width: 78px;
+   height: 105px;
+ }
+
+ article{
+   display: flex;
+   align-items: center;
+   margin-bottom: 48px;
+   max-width: 40%;
+ }
+
+ article div {
+   display: flex;
+   margin-left: 16px;
+   flex-direction: column;
+ }
+
+ h1{
+   font: normal normal lighter 57px/68px Open Sans;
+   margin: 32px 0;
+ }
+
+ h3{
+   font: normal normal normal 28px/31px Open Sans;
+ }
+
+.summary  > h3 {
+  color: #ACCEF7;
+  font: normal normal normal 28px/31px Open Sans;
+  margin-bottom: 12px;
+}
+
+.summary > p {
+  font: normal normal lighter 23px/31px Open Sans;
+  color: #5E6282;
+}
+
+@media only screen and (max-width: 960px) {
+  main {
+    background: none;
+    padding: 16px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .banner{
+    height: 64px;
+    padding: 16px;
+  }
+  .contact{
+    display: none;
+  }
+
+  .header-row-1{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+  }
+  header{
+    padding: 0;
+    height: 160px;
+  }
+  input{
+    width: calc(100% - 25px);
+  }
+
+  nav {
+    display: none;
+  }
+
+  h1{
+    font: normal normal bold 24px/32px Open Sans;
+    margin: 32px 0;
+  }
+ 
+  h3{
+    font: normal normal normal 18px/24px Open Sans;
+  }
+ 
+ .summary  > h3 {
+   color: #ACCEF7;
+   font: normal normal normal 18px/24px Open Sans;
+   margin-bottom: 12px;
+ }
+ 
+ .summary > p {
+   font: normal normal lighter 16px/20px Open Sans;
+   color: #5E6282;
+ }
+ article{
+    max-width: 100%;
+    margin-bottom: 24px;
+ }
+
+ form{
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 32px;
+ }
+
+ form > div {
+  display: flex;
+  flex: 1 1 auto;
+ }
+
+ form > * {
+  margin-left: 0px;
+  margin-right: 24px;
+}
+
+ .button-large{
+ 
+  width: 80%;
+    height: 48px;
+    font-weight: bold;
+ }
+
+ .search{
+  top:12px;
+ }
+}

@@ -1,0 +1,59 @@
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-bottom: -10px;
+  margin-right: 2px;
+}
+
+.icon-white {
+  color: white;
+}
+
+.icon-black {
+  color: black;
+}
+
+.call {
+  background: transparent url("assets/icons/call.svg") 0% 0% no-repeat
+    padding-box;
+}
+
+.whatsapp {
+  background: transparent url("assets/icons/whatsapp.svg") 0% 0% no-repeat
+    padding-box;
+}
+
+.email {
+  background: transparent url("assets/icons/mail.svg") 0% 0% no-repeat
+    padding-box;
+}
+
+.person {
+  background: transparent url("assets/icons/person.svg") 0% 0% no-repeat
+    padding-box;
+}
+
+.cart {
+  background: transparent url("assets/icons/cart.svg") 0% 0% no-repeat
+    padding-box;
+    width: 28px;
+}
+
+.search {
+  background: transparent url("assets/icons/search.svg") 0% 0% no-repeat
+    padding-box;
+  position: relative;
+  right: 30px;
+}
+
+.icon-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon-button .icon {
+    margin-bottom: 0px;
+}
